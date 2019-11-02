@@ -10,14 +10,12 @@
         <!-- Here is the bootstrap style sheet, so the code will work-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-        <!-- Here I inserted my background image in my header, since we don't have a style sheet -->
-        
       </head>
 
 <!-- Here I inserted a row with the header and the navbar, 
 so that they would be inline. -->
 
-    <body>
+    <body style ="background-image: url('./ASSETS/images/hotel-wallpaper.png');">
       <div class = "container">
         <div class ="row">
           <div class = "col-md-3" style= "background-color: #4aaaa5;" style= "text-decoration-color: #f5fafa;">
@@ -29,43 +27,53 @@ so that they would be inline. -->
 
 <!--  Here I inserted a navbar from getbootstrap with my links.  
            To make sure the links stayed open and didn't collapse into a button I added the .navbar-expand class and deleted the button 
-        
-      --> 
-        <nav class="navbar navbar-light" style="background-color: #f5fafa;">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <span class="navbar-brand"></span>
-              
-              <form class="form-inline my-2 my-lg-0">
-              <div class=".navbar-expand" id="navbarNav">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                
-                   </form>
     
-              </div>
-            </nav>
-             </nav>       
+      --> 
+        
+    
+        
+      <nav class="navbar navbar-expand-lg navbar-light" style= "background-color: #ffffff"; >
+          <nav class="navbar navbar-light" style="background-color: #ffffff;" width= "960px";>
+              <nav class="navbar navbar-light"      
+            <span class="navbar-brand"></span>
+             <form class="form-inline my-2 my-lg-0">
+            <div class=".navbar-expand" id="navbarNav">
 
-          </div>
-        </div>
-      </div> 
-         
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="navbar-brand" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="navbar-brand" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              
+                 </form>
+  
+            </div>
+          </nav>
+           </nav>  
+          </nav> 
+  </div>
+</div>
+  <!--Here I added in a row to give a break between my navbar and my form-->
+  <div class="row">
+      <div class=column-md-12;>
+        <br>
+      </div>
+    </div>
+
 <!--Here I found a form on bootstrap to make it responsive.
 I switched the order of the form groups to match the example, and expanded the rows in the message. -->
-            <div class="container">
-                
+      
+            <div class= "container" style="background-color: white" height="800px">
+
               <div class="row">
                   <div class="col-md-2">
-                  <div id="aboutMe" style="background-color: #4aaaa5;">
+                  <div id="aboutMe" style="background-color: #4aaaa5; text-decoration-color: #fbfdfd";>
                   <h2>Contact</h2>
                     </div>
                   </div>
@@ -94,13 +102,15 @@ I switched the order of the form groups to match the example, and expanded the r
 
 
     
-        <div class="content"> </div>
-        <footer class="footer">
-  
-        </footer>
+        <!--Here I inserted a bottom-fixed navbar to use as my sticky footer-->
+        <nav class="navbar fixed-bottom navbar-light" style="background-color: #4aaaa5;">
+            <a class="navbar-brand" href="#">  </a>
+        </nav>
+           
+    
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+</body>
 
 </html>
