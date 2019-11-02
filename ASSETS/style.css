@@ -1,0 +1,13 @@
+header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: "serif", "Times New Roman", "Times";
+    float: left;
+    text-align: center;
+    margin: "5px";
+    margin-left: "10px";
+}
+
+.nav {
+    @media (max-width: 640px) {  }
+}
