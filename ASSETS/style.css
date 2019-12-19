@@ -24,8 +24,8 @@ header {
     float: right;
 }
 
-.navbar-brand {
-    display: inline-block;
+#followText {
+    font-weight: bold;
 }
 
 .card {
