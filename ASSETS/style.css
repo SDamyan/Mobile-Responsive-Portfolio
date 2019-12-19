@@ -1,3 +1,14 @@
+body {
+    font-family: "Arial, Helvetica, sans-serif";
+    font: "12px";
+    background-image: url("./images/gravel.png")
+}
+
+#headerCol {
+    background-color: #4aaaa5;
+    text-decoration-color: #f5fafa;
+}
+
 header {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -7,9 +18,14 @@ header {
     margin-bottom: "20px";
 }
 
-.nav {
+.navbar-light {
+    background-color: #ffffff;
+    width: "960px";
+    float: right;
+}
 
-    display: "inline";
+.navbar-brand {
+    display: inline-block;
 }
 
 .card {
@@ -19,4 +35,9 @@ header {
 
 h5 {
     padding-bottom: "15px";
+}
+
+.container {
+    background-color: white;
+
 }
