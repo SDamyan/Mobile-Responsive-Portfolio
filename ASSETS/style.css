@@ -39,5 +39,10 @@ h5 {
 
 .container {
     background-color: white;
-
+    padding-bottom: "20px";
+    height: "800px";
 }
+/* 
+#cardContainer {
+    margin-bottom: "20px";
+} */
